@@ -1,0 +1,80 @@
+
+@media screen and (min-width: 750px){
+    header{
+        background-image: url(../images/desktop/image-header.jpg);
+             
+    }
+    .menu-principal{
+        display: block;
+    }
+    nav img{
+        display: none;
+    }
+    div.conteiner, div.conteiner2{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto;
+    }
+    div.conteiner2{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    div.conteiner .conteiner-text,div.conteiner2 .conteiner-text{
+        width: 50vw;
+        text-align: left;
+        margin: auto;
+        padding: 10px 50px;
+    }
+    div.conteiner .conteiner-text h1,div.conteiner2 .conteiner-text h1{
+        font-size: 2rem;
+    }
+    div.conteiner .conteiner-text h2,div.conteiner2 .conteiner-text h2{
+        font-size: 1.1rem;
+    }
+    div.conteiner .conteiner-text p,div.conteiner2 .conteiner-text p{
+        font-size: 1rem;
+        line-height: 22px;
+    }
+    div.conteiner .conteiner-img {
+        background-image: url(images/desktop/image-transform.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;
+    }
+    div.conteiner2 .conteiner-img {
+        width: 50vw;
+        background-image: url(images/desktop/image-stand-out.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;
+    }
+    div.conteiner .conteiner-img img,div.conteiner .conteiner-img img{
+        width: 100%;
+        height: auto;
+    }   
+    div.conteiner-fruits{
+        display: flex;
+        flex-direction: row;
+    }
+    .conteiner-testemunho-perso{
+        display: flex;
+        flex-direction: row;
+    }
+    .fundo-text {
+        width: 60%;
+    }
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+    div.galeria{
+        display: flex;
+        width: 100%;
+    }
+    .galeria-image img{
+        width: 99%;
+        height: auto;
+    }
+    .footer-title h1{
+        font-size: 1.9rem;  
+    }
+    .footer-menu p{
+        font-size: 1.3rem;  
+    }
+}
